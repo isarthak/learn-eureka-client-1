@@ -5,7 +5,7 @@ https://github.com/isarthak/learn-eureka-client-1
 https://github.com/isarthak/learn-eureka-server
 
 
-
+```
 If your domain is sarthak.com and you're deploying your Spring Cloud Gateway and services (like payment-service) to a cloud environment, you can set up routing and domain management effectively. Here's how you can do that:
 
 Example Setup for Domain sarthak.com
@@ -57,3 +57,5 @@ Subdomain Routing: Each service can have its own subdomain (e.g., payment.sartha
 Eureka Integration: Ensure that all services are registered with Eureka for discovery, and the Gateway uses lb:// to route to those services.
 DNS Management: Properly manage your DNS records to direct traffic to the correct services.
 This setup will help you manage routing and service discovery effectively within your domain sarthak.com. If you have specific use cases or configurations in mind, feel free to share them!
+
+```
